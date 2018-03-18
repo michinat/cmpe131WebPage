@@ -1,0 +1,57 @@
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.topnav a{
+  float: right;
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: inherit;
+  color: pink;
+}
+
+.column {
+  float: left;
+  width: 100%;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px){
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.centered-and-cropped {
+  object-fit: cover;
+}
+
+#homepagePic1 {
+  background-image: ;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
