@@ -1,57 +1,71 @@
 .header {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 20px;
+	
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 30px;
+	padding-top: 40px;
+	padding-left: 40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: inherit;
+	overflow: hidden;
+	background-color: inherit;
 }
 
 .topnav a{
-  float: right;
-  display: block;
-  color: inherit;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+	float: right;
+	display: block;
+	color: inherit;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 .topnav a:hover {
-  background-color: inherit;
-  color: pink;
+	background-color: inherit;
+	color: pink;
 }
 
 .column {
-  float: left;
-  width: 100%;
+	float: left;
+	width: 100%;
 }
 
 .row::after{
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 @media screen and (max-width: 600px){
-  .column {
-    width: 100%;
-  }
+	.column {
+		width: 100%;
+	}
 }
 
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
 }
 
 .centered-and-cropped {
-  object-fit: cover;
+	object-fit: cover;
 }
 
 #homepagePic1 {
-  background-image: ;
-  background-position: cover;
-  background-repeat: no-repeat;
+	background-image: ;
+	background-position: cover;
+	background-repeat: no-repeat;
 }
+h1{
+	margin-left: 1400px;
+	color: #FFFFFF;
+	font-size: 20px;
+	display: inline;
+}
+a{
+	color: #FFFFFF;
+}
+
