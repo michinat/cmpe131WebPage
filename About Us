@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" href = "Book4U.css" type="text/css">
+</head>
+<header class='masthead'>
+  <p class='masthead-intro'>Hey we're</p>
+  <h1 class='masthead-heading'>BookPANG!</h1>
+</header>
+<section class="introduction-section">
+    <h1>Introduction</h1>
+    <p>We are a group 0f SJSU Students wokring together to create an amazing company!.</p>
+    <p>I love the internet, technology, and building beautiful things.</p>
+</section>
+<section class="questions-section">
+    <h1>Who We Are</h1>
+    <h2>Cheng Chin Lim</h2>
+    <p>Im a cool dude.</p>
+    <h2>Jihwan Kim</h2>
+    <p>Im also a cool dude.</p>
+    <h2>Michael Ibarra</h2>
+    <p>Im a second year Softwrae Engineer Major. I like to watch a lot of shows and marathon Disney movies. I spend most
+		of my time playing video games or listening to music. When im not sleeping or procratsinating im either working at INNOUT
+		or on the rare occasions, studying.</p>
+		<img class="centered-and-cropped" width="250" height="250"
+			style="border-radius:50%; float:margin-right" src="CutePic.jpg">
+    <h2>Michaelle Natasha</h2>
+    <p>Am i allowed to talk about how cool i am?</p>
+		<h2>Minkyoo Lee</h2>
+		<p>Look at me im cool. </p>
+</section>
+
+<footer class="content-footer">
+    <p>Come check out some of our stuff!</p>
+    <ul class="social">
+        <li><a class="css-is-deranged" href="https://github.com/MichaelIbarra/cmpe131WebPage">GitHub</a></li>
+        <li><a class="css-is-deranged" href="_INSERT_TWITTER_URL_HERE_">Twitter</a></li>
+        <li><a class="css-is-deranged" href="_INSERT_GOOGLE+_URL_HERE_">Google+</a></li>
+    </ul>
+
+</footer>
+</html>
